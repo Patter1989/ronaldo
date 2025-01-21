@@ -1,29 +1,38 @@
-import { useEffect, useState } from 'react';
-import { requestTopMoviesList } from '../../services/api';
-import toast from 'react-hot-toast';
-import MovieList from '../../components/MovieList/MovieList';
 import css from "./HomePage.module.css"
 
 function HomePage() {
 
-	const [topRatedMovies, setTopRatedMovies] = useState([]);
-	useEffect(() => {
-		async function fetchTopRatedMovies() {
-			try {
-				const response = await requestTopMoviesList();
-				setTopRatedMovies(response.data.results);
-			} catch (err) {
-				toast.error(`Error fetching movies: ${err.message}`);
-			} 
-		}
-		fetchTopRatedMovies();
-	}, []);
-
 	return (
-		<div className={css.HomePageWrapper}>
-			<h2 className={css.header}>Trending today</h2>
-			<MovieList moviesList={topRatedMovies} />
-		</div>
+		<section className={css.HomePageWrapper}>
+			<div className={css.heroSectionWrapper}>
+				<img
+					className={css.heroImg}
+					src='/src/images/hero_Img.png'
+					alt='Bar'
+				/>
+				<div className={css.titleWrapper}>
+					<p className={css.titleText}>PERFEKTE FRÜHSTÜCK</p>
+				</div>
+			</div>
+			<div className={css.breakfast}>
+				<div className={css.breakfastFotoWrapper}>
+					<img
+						className={css.breakfastFoto}
+						src='/src/images/Frühstück_Hero.jpg'
+						alt='Französisches Frühstück'
+					></img>
+				</div>
+				<div className={css.breakfastTitleWrapper}>
+					<p className={css.breakfastTitle}>
+						Genießen Sie dieses liebevoll zusammengestellte Frühstück in unserem
+						gemütlichen Ambiente. Perfekt für einen besonderen Morgen mit
+						Freunden oder Familie. Lassen Sie sich von der Vielfalt inspirieren
+						und starten Sie Ihren Tag mit Genuss! Reservieren Sie jetzt Ihren
+						Tisch und erleben Sie unser „Budderbrood“-Frühstück!
+					</p>
+				</div>
+			</div>
+		</section>
 	);
 }
 

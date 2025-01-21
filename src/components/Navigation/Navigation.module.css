@@ -1,31 +1,132 @@
-.nav{
-  
-  height: 35px;
-  padding-top: 5px;
+
+.navSection{
+  box-sizing: border-box;
+  width: 100vw;
   display: flex;
-  justify-content: center;
-  background-color: rgb(12, 12, 39);
-  box-shadow: 5px 5px 25px 15px rgb(12, 12, 39);
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.reservButton{
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  color: #967959;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
   
 }
 
 .NavLink{
+  display: none;
+}
+
+.navButton{
+  display: none;
+}
+
+
+.burgerButton {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #967959;
+  cursor: pointer;
+}
+
+@media (min-width: 426px){
+  
+.navSection{
+  display: flex;
+  padding: 5px 15px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+.nav {
+  display: flex; 
+  gap: 10px;
+  }
+.NavLink{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  color: inherit;
   height: 30px;
-  font-weight: 800;
-  font-size: 18px;
-  /* border: 1px solid black; */
-  /* border-radius: 8px; */
-  text-decoration: none;
-  background-color: rgb(92, 91, 91);
-  color: rgb(247, 99, 0);
+  font-size: 12px;
   transition: all 0.3s;
 }
 
 .linkActive {
-  background-color: rgb(247, 99, 0);
-  color: rgb(92, 91, 91);
+  color: #967959;
+}
+
+.navButton{
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: #D8C086;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+}
+.navButton:hover{
+  background: #c4b09a;
+}
+
+.navButton:focus{
+  background: #c4b09a;
+}
+
+
+  
+  .burgerButton {
+    display: none;
+  }
+
+  
+}
+
+
+
+@media (min-width: 769px) {
+.navSection{
+  
+}
+
+.nav{
+  gap: 60px; 
+}
+
+.NavLink{
+  font-size: 18px;
+  
+  
+}
+
+.reservButton{
+  font-size: 18px;
+}
+
+.navButton{
+  font-size: 18px;
+  width: 100px;
+  background-color: #D8C086;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+}
+.navButton:hover{
+  background: #c4b09a;
+}
+
 }

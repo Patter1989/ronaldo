@@ -1,28 +1,70 @@
-body {
-  background-color: #1e2336;
-  margin: 0;
-  display: flex;
-  /* max-width: 1440px; */
-  /* place-items: center; */
-  /* min-width: 320px;
-  min-height: 100vh; */
-}
-main{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 :root {
-  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
   
 }
 
 #root{
-  width: 100%;
   
+  
+}
+
+/* Відключає базові відступи та вирівнює поля для всіх елементів */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Видаляє стандартний стиль списків */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Видаляє підкреслення для посилань за замовчуванням */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Видаляє стилі кнопок */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Вирівнює шрифти для тіла документа */
+body {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Встановлює стандартний вигляд заголовків */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Вирівнює поля для зображень */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Вирівнює інпут-поля */
+input,
+textarea,
+select {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
 }

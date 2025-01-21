@@ -1,0 +1,105 @@
+.addressList{
+  display: none;
+}
+
+.addressSection{
+  width: 100vw;
+  display: flex;
+  background-color: #967959;
+  padding: 5px 10px;
+  justify-content: flex-end;
+}
+
+address{
+  display: flex;
+  flex-direction: row;
+  }
+
+.socList{
+  
+  display: flex;
+  gap: 10px;
+}
+
+.socIcon{
+  fill: #fff;
+
+}
+
+@media (min-width: 769px){
+  
+.addressSection{
+  display: inline-block;
+  }
+
+address{
+  justify-content: space-between;
+}
+.addressList{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; 
+}
+
+.addressItem{
+  display: flex;
+  
+}
+
+.pic{
+  fill: #fff;
+  width: 10px;
+  align-self:baseline;
+  margin-right: 3px;
+}
+
+.addressLink{
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+}
+
+
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+.addressSection{
+  padding: 0px 20px;
+}
+.addressList{
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.addressLink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  height: 40px;
+}
+
+.pic{
+  fill: #fff;
+  width: 18px;
+  height: 18px;
+  align-self: center;
+}
+
+.socIcon{
+  fill: #fff;
+  width: 18px;
+  height: 18px;
+  align-self: center;
+}
+.socLink{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+}

@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { lazy, Suspense } from "react";
 import { ProgressBar } from "react-loader-spinner";
+import Layout from "./components/Layout/Layout";
+
 
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage"));
@@ -9,7 +11,6 @@ const MovieDetailsPage = lazy(() =>
 	import("./pages/MovieDetailsPage/MovieDetailsPage")
 );
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage/NotFoundPage"));
-const Navigation = lazy(() => import("./components/Navigation/Navigation"));
 const MovieCast = lazy(() => import("./components/MovieCast/MovieCast"));
 const MovieReview = lazy(() => import("./components/MovieReviews/MovieReview"));
 
@@ -18,10 +19,6 @@ const App = () => {
 	
 	return (
 		<div>
-			<header>
-				<Navigation />
-			</header>
-			<main>
 				<Toaster
 					position='top-center'
 					containerStyle={{
@@ -37,36 +34,40 @@ const App = () => {
 						},
 					}}
 				/>
-				<Suspense fallback= {<ProgressBar/>}>
+				<Suspense fallback={<ProgressBar />}>
 					<Routes>
 						<Route
 							path='/'
-							element={<HomePage />}
-						/>
-						<Route
-							path='/movies'
-							element={<MoviesPage />}
-						/>
-						<Route
-							path='/movies/:topRatedMovieId'
-							element={<MovieDetailsPage />}
+							element={<Layout />}
 						>
 							<Route
-								path='cast'
-								element={<MovieCast />}
+								index
+								element={<HomePage />}
 							/>
 							<Route
-								path='reviews'
-								element={<MovieReview />}
+								path='/movies'
+								element={<MoviesPage />}
+							/>
+							<Route
+								path='/movies/:topRatedMovieId'
+								element={<MovieDetailsPage />}
+							>
+								<Route
+									path='cast'
+									element={<MovieCast />}
+								/>
+								<Route
+									path='reviews'
+									element={<MovieReview />}
+								/>
+							</Route>
+							<Route
+								path='*'
+								element={<NotFoundPage />}
 							/>
 						</Route>
-						<Route
-							path='*'
-							element={<NotFoundPage />}
-						/>
 					</Routes>
 				</Suspense>
-			</main>
 		</div>
 	);
 }

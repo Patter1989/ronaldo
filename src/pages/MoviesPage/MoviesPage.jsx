@@ -6,40 +6,40 @@ import MovieList from "../../components/MovieList/MovieList";
 import { useSearchParams } from "react-router-dom";
 
 const MoviesPage = () => {
-	const [movieList, setMovieList] = useState([]);
-		const [searchParams, setSearchParams] = useSearchParams();
-	const query = searchParams.get("query");
+	// const [movieList, setMovieList] = useState([]);
+	// 	const [searchParams, setSearchParams] = useSearchParams();
+	// const query = searchParams.get("query");
 	
 
-  const onSubmit = (inputValue) => {
-		setSearchParams({ "query": inputValue});
-	};
-    const onHandleSubmit = (event) => {
-			event.preventDefault();
-			const inputValue = event.currentTarget.elements.query.value;
-			inputValue === ""
-				? toast.error("please write something")
-				: onSubmit(inputValue);
-  };
+  // const onSubmit = (inputValue) => {
+	// 	setSearchParams({ "query": inputValue});
+	// };
+  //   const onHandleSubmit = (event) => {
+	// 		event.preventDefault();
+	// 		const inputValue = event.currentTarget.elements.query.value;
+	// 		inputValue === ""
+	// 			? toast.error("please write something")
+	// 			: onSubmit(inputValue);
+  // };
   
-  useEffect(() => {
-    if (!query) return;
-		async function fetchSearchedMovie() {
-      try {
+  // useEffect(() => {
+  //   if (!query) return;
+	// 	async function fetchSearchedMovie() {
+  //     try {
         
-        const response = await requestMovieByQuery(query);
-        if (response.data.results.length === 0) {
-          setMovieList([])
-					toast.error("No matches, please change your request!");
-					return;
-				}
-				setMovieList(response.data.results);
-			} catch (err) {
-				toast.error(`Error fetching movies: ${err.message}`);
-			}
-		}
-		fetchSearchedMovie();
-  }, [query]);
+  //       const response = await requestMovieByQuery(query);
+  //       if (response.data.results.length === 0) {
+  //         setMovieList([])
+	// 				toast.error("No matches, please change your request!");
+	// 				return;
+	// 			}
+	// 			setMovieList(response.data.results);
+	// 		} catch (err) {
+	// 			toast.error(`Error fetching movies: ${err.message}`);
+	// 		}
+	// 	}
+	// 	fetchSearchedMovie();
+  // }, [query]);
   
 		return (
 			<div className={css.wrapper}>
