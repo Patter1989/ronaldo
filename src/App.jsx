@@ -8,13 +8,7 @@ import Layout from "./components/Layout/Layout";
 
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const InfoPage = lazy(() => import("./pages/InfoPage/InfoPage"));
-const MovieDetailsPage = lazy(() =>
-	import("./pages/MovieDetailsPage/MovieDetailsPage")
-);
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage/NotFoundPage"));
-const MovieCast = lazy(() => import("./components/MovieCast/MovieCast"));
-const MovieReview = lazy(() => import("./components/MovieReviews/MovieReview"));
-
 
 const App = () => {
 	
@@ -49,19 +43,6 @@ const App = () => {
 								path='/info'
 								element={<InfoPage />}
 							/>
-							<Route
-								path='/movies/:topRatedMovieId'
-								element={<MovieDetailsPage />}
-							>
-								<Route
-									path='cast'
-									element={<MovieCast />}
-								/>
-								<Route
-									path='reviews'
-									element={<MovieReview />}
-								/>
-							</Route>
 							<Route
 								path='*'
 								element={<NotFoundPage />}
