@@ -38,7 +38,7 @@ const Navigation = () => {
 						BudderBrood Hanau
 					</NavLink>
 					<NavLink
-						to='/Movies'
+						to='/info'
 						className={buildLinkClass}
 					>
 						Über Uns

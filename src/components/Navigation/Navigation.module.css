@@ -14,7 +14,7 @@
   font-size: 12px;
   border: none;
   border-radius: 5px;
-  color: #967959;
+  color: var(--button);
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -35,7 +35,7 @@
   font-size: 24px;
   background: none;
   border: none;
-  color: #967959;
+  color: var(--button);
   cursor: pointer;
 }
 
@@ -68,16 +68,16 @@
 .navButton{
   font-size: 12px;
   padding: 5px 10px;
-  background-color: #D8C086;
+  background-color: var(--button);
   border: none;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: inherit;
+  color: #fff;
 }
 .navButton:hover{
-  background: #c4b09a;
+  background: var(--button-hover);
 }
 
 .navButton:focus{
@@ -117,13 +117,6 @@
 .navButton{
   font-size: 18px;
   width: 100px;
-  background-color: #D8C086;
-  border: none;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: inherit;
 }
 .navButton:hover{
   background: #c4b09a;

@@ -30,6 +30,15 @@ a {
   color: inherit;
 }
 
+:root {
+  --background: #F5F5DC; /* Ніжний бежевий */
+  --text: #000000; /* Чорний */
+  --header: #4B2E20; /* Темно-коричневий */
+  --button: #153234; /* Оливковий зелений */
+  --button-hover: #D8A676; /* Золотистий */
+  --card-bg: #e5e2dc; /* Світлий кремовий */
+}
+
 /* Видаляє стилі кнопок */
 button {
   border: none;
@@ -43,8 +52,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  background-color: #fff;
+  background-color: var(--background);
   color: #000;
+  overflow-x: hidden;
 }
 
 /* Встановлює стандартний вигляд заголовків */

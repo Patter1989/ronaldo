@@ -5,8 +5,9 @@ import { ProgressBar } from "react-loader-spinner";
 import Layout from "./components/Layout/Layout";
 
 
+
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
-const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage"));
+const InfoPage = lazy(() => import("./pages/InfoPage/InfoPage"));
 const MovieDetailsPage = lazy(() =>
 	import("./pages/MovieDetailsPage/MovieDetailsPage")
 );
@@ -45,8 +46,8 @@ const App = () => {
 								element={<HomePage />}
 							/>
 							<Route
-								path='/movies'
-								element={<MoviesPage />}
+								path='/info'
+								element={<InfoPage />}
 							/>
 							<Route
 								path='/movies/:topRatedMovieId'
