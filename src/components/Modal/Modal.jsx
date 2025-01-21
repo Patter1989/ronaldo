@@ -12,7 +12,7 @@ const buildLinkClass = ({ isActive }) =>
 
 const Modal = ({ isOpen, onCloseModal }) => {
 	useEffect(() => {
-		console.log("modal");
+		
 
 		const handleKeydown = (event) => {
 			if (event.code === "Escape") {

@@ -44,7 +44,7 @@ const Navigation = () => {
 						Über Uns
 					</NavLink>
 					<NavLink
-						to='/Movies'
+						to='/kontakt'
 						className={buildLinkClass}
 					>
 						Kontakt

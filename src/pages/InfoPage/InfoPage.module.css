@@ -1,0 +1,66 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 10px;
+}
+
+.infoTextWrapper{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 20px;
+gap: 20px;
+}
+
+.infoHeader{
+
+}
+
+.infoText{
+    color: #29332F;
+    font-family: "Questrial", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+  text-align: center;
+}
+
+
+
+.img{
+width: 100%;
+}
+
+@media (min-width: 769px) {
+  .wrapper{
+  
+  display: flex;
+  flex-direction: row;
+}
+
+  .infoTextWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  width: 80%;
+  }
+
+  .infoText{
+    text-align: start;
+    font-size: 18px;
+  }
+
+  .imgWrapper{
+    overflow: hidden;
+  }
+  
+}
