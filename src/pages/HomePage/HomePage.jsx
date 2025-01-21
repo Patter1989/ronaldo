@@ -7,7 +7,7 @@ function HomePage() {
 			<div className={css.heroSectionWrapper}>
 				<img
 					className={css.heroImg}
-					src='/src/images/hero_Img.png'
+					src='/hero_Img.png'
 					alt='Bar'
 				/>
 				<div className={css.titleWrapper}>
@@ -18,7 +18,7 @@ function HomePage() {
 				<div className={css.breakfastFotoWrapper}>
 					<img
 						className={css.breakfastFoto}
-						src='/src/images/Frühstück_Hero.jpg'
+						src='/Frühstück_Hero.jpg'
 						alt='Französisches Frühstück'
 					></img>
 				</div>
