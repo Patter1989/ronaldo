@@ -54,6 +54,7 @@ const Modal = ({ isOpen, onCloseModal }) => {
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.reservButton}
+					onClick={onCloseModal}
 				>
 					Tisch reservieren
 				</a>
@@ -61,18 +62,21 @@ const Modal = ({ isOpen, onCloseModal }) => {
 					<NavLink
 						to='/'
 						className={buildLinkClass}
+						onClick={onCloseModal}
 					>
 						BudderBrood Hanau
 					</NavLink>
 					<NavLink
-						to='/Movies'
+						to='/info'
 						className={buildLinkClass}
+						onClick={onCloseModal}
 					>
 						Über Uns
 					</NavLink>
 					<NavLink
-						to='/Movies'
+						to='/kontakt'
 						className={buildLinkClass}
+						onClick={onCloseModal}
 					>
 						Kontakt
 					</NavLink>
@@ -82,6 +86,7 @@ const Modal = ({ isOpen, onCloseModal }) => {
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.navButton}
+					onClick={onCloseModal}
 				>
 					Menu
 				</a>
