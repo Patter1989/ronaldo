@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px 20px;
+  
 }
 
 .reservButton{
@@ -43,8 +43,7 @@
   
 .navSection{
   display: flex;
-  padding: 5px 15px;
-  background-color: #fff;
+  
   justify-content: space-between;
 }
 .nav {
@@ -62,7 +61,7 @@
 }
 
 .linkActive {
-  color: #967959;
+  color: var(--button-hover);
 }
 
 .navButton{
@@ -74,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--card-bg);
 }
 .navButton:hover{
   background: var(--button-hover);

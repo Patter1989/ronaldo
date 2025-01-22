@@ -9,7 +9,14 @@ import { FaTiktok } from "react-icons/fa6";
 const Address = () => {
   return (
 		<section className={css.addressSection}>
+				<img
+					className={css.logoImg}
+					src='/logo.jpeg'
+				alt='logo'
+				width='25'
+				/>
 			<address>
+
 				<ul className={css.addressList}>
 					<li className={css.addressItem}>
 						<AiFillPhone className={css.pic} />

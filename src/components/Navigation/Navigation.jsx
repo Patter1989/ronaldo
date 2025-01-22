@@ -35,7 +35,7 @@ const Navigation = () => {
 						to='/'
 						className={buildLinkClass}
 					>
-						BudderBrood Hanau
+						Startseite
 					</NavLink>
 					<NavLink
 						to='/info'

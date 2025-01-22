@@ -6,8 +6,9 @@
   width: 100vw;
   display: flex;
   background-color: var(--button);
-  padding: 5px 10px;
-  justify-content: flex-end;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 address{
@@ -22,7 +23,7 @@ address{
 }
 
 .socIcon{
-  fill: #fff;
+  fill: var(--button-hover);
 
 }
 
@@ -30,6 +31,10 @@ address{
   
 .addressSection{
   display: inline-block;
+  }
+
+  .logoImg{
+    display: none;
   }
 
 address{
@@ -47,7 +52,7 @@ address{
 }
 
 .pic{
-  fill: var(--card-bg);
+  fill: var(--button-hover);
   width: 10px;
   align-self:baseline;
   margin-right: 3px;

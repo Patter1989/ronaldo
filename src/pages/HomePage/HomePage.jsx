@@ -11,6 +11,13 @@ function HomePage() {
 					alt='Bar'
 				/>
 				<div className={css.titleWrapper}>
+					{/* <img
+						className={css.logoImg}
+						src='/logo-lange.jpeg'
+						alt='logo'
+						
+						
+					/> */}
 					<p className={css.titleText}>PERFEKTE FRÜHSTÜCK</p>
 				</div>
 			</div>

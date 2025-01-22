@@ -17,8 +17,23 @@
   width: 100%;
   }
 
+
+  .logoImg{
+    
+    height: auto; 
+    width: 80%;
+    overflow: hidden;
+
+  }
+
 .titleWrapper{
 background-color: rgb(238, 238, 238);
+/* width: 161px; */
+
+
+overflow: hidden;
+
+
 }
 .titleText{
   display: flex;
@@ -32,7 +47,7 @@ background-color: rgb(238, 238, 238);
 padding: 10px;
 display: flex;
 flex-direction: column;
-background-color: #f5f8fa;
+background-color: var(--card-bg);
 
 }
 
@@ -57,7 +72,7 @@ background-color: #f5f8fa;
 
 .breakfastTitle{
   text-align: center;
-  color: #29332F;
+  color: var(--button);
   font-family: "Questrial", Sans-serif;
   font-size: 16px;
   font-weight: 400;

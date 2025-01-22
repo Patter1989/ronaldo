@@ -64,7 +64,7 @@ const Modal = ({ isOpen, onCloseModal }) => {
 						className={buildLinkClass}
 						onClick={onCloseModal}
 					>
-						BudderBrood Hanau
+						Startseite
 					</NavLink>
 					<NavLink
 						to='/info'
