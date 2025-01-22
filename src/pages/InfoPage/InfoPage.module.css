@@ -38,6 +38,11 @@ width: 100%;
 }
 
 @media (min-width: 769px) {
+  .sectionWrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
   .wrapper{
   
   display: flex;

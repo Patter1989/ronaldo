@@ -1,0 +1,113 @@
+.container {
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  
+  margin: 20px;
+}
+
+.heading {
+  color: var(--button);
+  font-family: "Questrial", Sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--button); /* Основний колір пагінації */
+  opacity: 0.7; /* Напівпрозорість */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--button-hover); /* Колір активної пагінації */
+  opacity: 1; /* Повна прозорість для активного елемента */
+}
+
+.swiper {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button);
+  border: 1px solid var(--button);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviewItem {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profileImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--button);
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.author {
+  color: var(--card-bg);
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.author a {
+  color: var(--card-bg);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.author a:hover {
+  color: var(--button-hover);
+}
+
+.text {
+  color: var(--card-bg);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* .swiper-button-next,
+.swiper-button-prev {
+  color: var(--button-hover);
+  transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--header);
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--button);
+  opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--button-hover);
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--button-hover);
+  transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--header);
+} */
+

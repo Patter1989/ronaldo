@@ -1,89 +1,22 @@
-// // import params from "../App.jsx"
 import axios from "axios";
 
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
-
-
-
-
-
-export const requestTopMoviesList = async () => {
-	const url = "https://api.themoviedb.org/3/trending/movie/day?language=en-US";
-	const options = {
-		headers: {
-			accept: "application/json",
-			Authorization:
-				"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYTMzNDE0ZGEyNjVkMjJhYWI3MTJhYTAxYzBlNTQzMCIsIm5iZiI6MTcyMzg5MDU3Mi40MDIyOTQsInN1YiI6IjY2YzA3NjY2MGUzNTg4NGM1YmMzMGZlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EktLaRzBXkZXRM2Q1-NVrvbaahGa8rydUET0yngQ2gg",
-		},
-	};
-
-	const response = await axios.get(
-		url, options
-	);
-	return response;
-};
-
-
-export const requestMovieInfoById = async (topRatedMovieId,) => {
-	const url =
-		(`https://api.themoviedb.org/3/movie/${topRatedMovieId}`);
-	const options = {
-		headers: {
-			accept: "application/json",
-			Authorization:
-				"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYTMzNDE0ZGEyNjVkMjJhYWI3MTJhYTAxYzBlNTQzMCIsIm5iZiI6MTcyMzg5MDU3Mi40MDIyOTQsInN1YiI6IjY2YzA3NjY2MGUzNTg4NGM1YmMzMGZlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EktLaRzBXkZXRM2Q1-NVrvbaahGa8rydUET0yngQ2gg",
-		},
+export const fetchPlaceDetails = async () => {
+	try {
 		
-	};
+		const url = `/api/maps/api/place/details/json?place_id=ChIJe_GwfBUXvUcRLhqeCSgOs1k&fields=name,rating,reviews&key=${GOOGLE_API_KEY}`;
+		const response = await axios.get(url);
 
-	const response = await axios.get(url, options);
-	return response;
+		// Перевіряємо статус відповіді
+		if (response.data.status !== "OK") {
+			throw new Error(`Error fetching place details: ${response.data.status}`);
+		}
+
+		// Повертаємо результат
+		return response.data.result;
+	} catch (error) {
+		console.error("Error fetching place details:", error.message);
+		throw error;
+	}
 };
-
-
-export const requestMovieCast = async (topRatedMovieId) => {
-	const url = `https://api.themoviedb.org/3/movie/${topRatedMovieId}/credits`;
-	const options = {
-		headers: {
-			accept: "application/json",
-			Authorization:
-				"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYTMzNDE0ZGEyNjVkMjJhYWI3MTJhYTAxYzBlNTQzMCIsIm5iZiI6MTcyMzg5MDU3Mi40MDIyOTQsInN1YiI6IjY2YzA3NjY2MGUzNTg4NGM1YmMzMGZlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EktLaRzBXkZXRM2Q1-NVrvbaahGa8rydUET0yngQ2gg",
-		},
-	};
-
-	const response = await axios.get(url, options);
-	return response;
-};
-
-
-export const requestMovieReviews = async (topRatedMovieId) => {
-	const url = `https://api.themoviedb.org/3/movie/${topRatedMovieId}/reviews`;
-	const options = {
-		headers: {
-			accept: "application/json",
-			Authorization:
-				"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYTMzNDE0ZGEyNjVkMjJhYWI3MTJhYTAxYzBlNTQzMCIsIm5iZiI6MTcyMzg5MDU3Mi40MDIyOTQsInN1YiI6IjY2YzA3NjY2MGUzNTg4NGM1YmMzMGZlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EktLaRzBXkZXRM2Q1-NVrvbaahGa8rydUET0yngQ2gg",
-		},
-	};
-
-	const response = await axios.get(url, options);
-	return response;
-};
-
-
-export const requestMovieByQuery = async (query) => {
-	const url = `https://api.themoviedb.org/3/search/movie?query=${query}&include_adult=false&language=en-US&page=1`;
-	const options = {
-		headers: {
-			accept: "application/json",
-			Authorization:
-				"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYTMzNDE0ZGEyNjVkMjJhYWI3MTJhYTAxYzBlNTQzMCIsIm5iZiI6MTcyMzg5MDU3Mi40MDIyOTQsInN1YiI6IjY2YzA3NjY2MGUzNTg4NGM1YmMzMGZlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EktLaRzBXkZXRM2Q1-NVrvbaahGa8rydUET0yngQ2gg",
-		},
-	};
-
-	const response = await axios.get(url, options);
-	return response;
-};
-
-
-

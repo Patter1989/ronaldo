@@ -4,15 +4,12 @@ import { lazy, Suspense } from "react";
 import { ProgressBar } from "react-loader-spinner";
 import Layout from "./components/Layout/Layout";
 
-
-
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const InfoPage = lazy(() => import("./pages/InfoPage/InfoPage"));
 const KontaktPage = lazy(() => import("./pages/KontaktPage/KontaktPage"));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage/NotFoundPage"));
 
 const App = () => {
-	
 	return (
 		<div>
 			<Toaster
@@ -46,7 +43,7 @@ const App = () => {
 						/>
 						<Route
 							path='/kontakt'
-							element={<KontaktPage/>}
+							element={<KontaktPage />}
 						/>
 						<Route
 							path='*'
@@ -57,6 +54,6 @@ const App = () => {
 			</Suspense>
 		</div>
 	);
-}
+};
 
-export default App
+export default App;

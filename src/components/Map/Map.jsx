@@ -11,14 +11,25 @@ function MapWidget() {
 		lng: 8.917409370536443,
 	};
 
-
+	const mapOptions = {
+		disableDefaultUI: true,
+		zoomControl: true,
+		styles: [
+			{
+				featureType: "poi",
+				elementType: "labels",
+				// stylers: [{ visibility: "off" }],
+			},
+		],
+	};
 
 	return (
-		<LoadScript googleMapsApiKey='AIzaSyDcm03KBJH5Bj6pzN7_eIo-8nHvYN6ijXM'>
+		<LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
 			<GoogleMap
 				mapContainerStyle={mapContainerStyle}
 				center={center}
 				zoom={20}
+				options={mapOptions}
 			>
 				<Marker position={center} />
 			</GoogleMap>
