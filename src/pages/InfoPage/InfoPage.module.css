@@ -41,10 +41,16 @@ width: 100%;
   .sectionWrapper{
     display: flex;
     flex-direction: column;
+    :nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+    
   }
 
-  .wrapper{
   
+  .wrapper{
+  background-color: none;
   display: flex;
   flex-direction: row;
 }

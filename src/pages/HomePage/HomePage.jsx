@@ -15,8 +15,6 @@ function HomePage() {
 						className={css.logoImg}
 						src='/logo-lange.jpeg'
 						alt='logo'
-						
-						
 					/>
 					{/* <p className={css.titleText}>PERFEKTE FRÜHSTÜCK</p> */}
 				</div>
@@ -31,11 +29,9 @@ function HomePage() {
 				</div>
 				<div className={css.breakfastTitleWrapper}>
 					<p className={css.breakfastTitle}>
-						Genießen Sie dieses liebevoll zusammengestellte Frühstück in unserem
-						gemütlichen Ambiente. Perfekt für einen besonderen Morgen mit
-						Freunden oder Familie. Lassen Sie sich von der Vielfalt inspirieren
-						und starten Sie Ihren Tag mit Genuss! Reservieren Sie jetzt Ihren
-						Tisch und erleben Sie unser „Budderbrood“-Frühstück!
+						Wir legen Wert auf natürliche und regionale Produkte, denn guter
+						Geschmack beginnt bei der Qualität. Jedes Brot, jeder Belag und jede
+						Zutat erzählt bei uns eine Geschichte der Frische und Sorgfalt.
 					</p>
 				</div>
 			</div>
