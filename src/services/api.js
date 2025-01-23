@@ -5,7 +5,7 @@ const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 export const fetchPlaceDetails = async () => {
 	try {
 		
-		const url = `/api/maps/api/place/details/json?place_id=ChIJe_GwfBUXvUcRLhqeCSgOs1k&fields=name,rating,reviews&key=${GOOGLE_API_KEY}`;
+		const url = `/api/maps/api/place/details/json?place_id=ChIJe_GwfBUXvUcRLhqeCSgOs1k&fields=name,rating,reviews&key=${GOOGLE_API_KEY}&timestamp=${new Date().getTime()}`;
 		const response = await axios.get(url);
 
 		// Перевіряємо статус відповіді
