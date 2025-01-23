@@ -82,7 +82,7 @@ const Modal = ({ isOpen, onCloseModal }) => {
 					</NavLink>
 				</nav>
 				<a
-					href='renaldo.vercel.app/menu.pdf'
+					href='/menu.pdf'
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.navButton}
