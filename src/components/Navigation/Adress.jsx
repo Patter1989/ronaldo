@@ -4,19 +4,21 @@ import { MdMail } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa6";
+import { NavLink } from 'react-router-dom';
 
 
 const Address = () => {
   return (
 		<section className={css.addressSection}>
+			<NavLink to='/'>
 				<img
 					className={css.logoImg}
 					src='/logo.jpeg'
-				alt='logo'
-				width='25'
+					alt='logo'
+					width='25'
 				/>
+			</NavLink>
 			<address>
-
 				<ul className={css.addressList}>
 					<li className={css.addressItem}>
 						<AiFillPhone className={css.pic} />
