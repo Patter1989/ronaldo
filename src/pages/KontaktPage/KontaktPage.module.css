@@ -1,106 +1,31 @@
-.HomePageWrapper {
-  min-width: 320px;
+.KontaktPageWrapper{
   display: flex;
   flex-direction: column;
-  max-width: 100%;
-  box-sizing: border-box; 
-  overflow-x: hidden; 
+  padding: 10px;
+  gap: 20px;
+  background-color: var(--card-bg);
 }
 
-.heroSectionWrapper{
+
+
+.KontaktHeader{
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+
+.kontaktList{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 40px;
 }
 
-.heroImg{
-  overflow: hidden;
-  width: 100%;
-  }
-
-.titleWrapper{
-background-color: rgb(238, 238, 238);
-}
-.titleText{
-  display: flex;
-  padding: 80px 15px;
-  writing-mode: vertical-rl;
-  letter-spacing: 10px;
-  width: 45px;
+.address{
+  padding-bottom: 40px;
 }
 
-.breakfast{
-padding: 10px;
-display: flex;
-flex-direction: column;
-background-color: #f5f8fa;
-
-}
-
-.breakfastFotoWrapper{
-  overflow: hidden;
-}
-
-.breakfastFoto{
-  box-sizing: border-box;
-  transition: transform 3s ease;
-}
-
-.breakfastFoto:focus,
-.breakfastFoto:hover{
-  transform: scale(1.6);
-  
-}
-
-.breakfastTitleWrapper{
-  background-color: #f5f8fa;
-}
-
-.breakfastTitle{
-  text-align: center;
-  color: #29332F;
-  font-family: "Questrial", Sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 1.5em;
-  letter-spacing: 0px;
-  }
-
-
-
-@media (min-width: 769px){
-  .HomePageWrapper {
-  flex-direction: row;
-  
-  
-}
-
-.heroSectionWrapper{
-  display: flex;
-  flex-direction: row;
-  min-width: 60%;
-}
-
-
-.breakfast{
-  width: 100%;
-}
-.breakfastFoto{
-  width: 100%;
-}
-
-.titleText{
-  font-size: 18px;
-  padding: 80px 15px;
-  writing-mode: vertical-rl;
-  letter-spacing: 10px;
-  width: 45px;
-}
-
-.breakfastTitle{
-  font-size: 18px;
-  
+@media (min-width: 426px){
+.text{
+  font-size: 20px;
 }
 }

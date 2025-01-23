@@ -106,9 +106,9 @@ const Modal = ({ isOpen, onCloseModal }) => {
 							<MdMail className={css.pic} />
 							<a
 								className={css.addressLink}
-								href='mailto: info-@mail.com'
-							>
-								info-@mail.com
+								href='mailto: renaldo.klimenko@budderbrood.de'
+								>
+								E-Mail schreiben
 							</a>
 						</li>
 						<li className={css.addressItem}>

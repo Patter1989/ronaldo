@@ -21,19 +21,17 @@
   .logoImg{
     
     height: auto; 
-    width: 80%;
+    width: 100%;
     overflow: hidden;
 
   }
 
 .titleWrapper{
-background-color: rgb(238, 238, 238);
-/* width: 161px; */
-
-
+  display: flex;
+  align-items: center;
+background-color: var(--button);
+width: 161px;
 overflow: hidden;
-
-
 }
 .titleText{
   display: flex;

@@ -11,14 +11,14 @@ function HomePage() {
 					alt='Bar'
 				/>
 				<div className={css.titleWrapper}>
-					{/* <img
+					<img
 						className={css.logoImg}
 						src='/logo-lange.jpeg'
 						alt='logo'
 						
 						
-					/> */}
-					<p className={css.titleText}>PERFEKTE FRÜHSTÜCK</p>
+					/>
+					{/* <p className={css.titleText}>PERFEKTE FRÜHSTÜCK</p> */}
 				</div>
 			</div>
 			<div className={css.breakfast}>

@@ -31,9 +31,9 @@ const Address = () => {
 						<MdMail className={css.pic} />
 						<a
 							className={css.addressLink}
-							href='mailto: info-@mail.com'
+							href='mailto: renaldo.klimenko@budderbrood.de'
 						>
-							info-@mail.com
+							E-Mail schreiben
 						</a>
 					</li>
 					<li className={css.addressItem}>

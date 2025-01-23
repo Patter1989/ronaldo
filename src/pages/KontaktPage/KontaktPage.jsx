@@ -8,40 +8,50 @@ function KontaktPage() {
 
 	return (
 		<section className={css.KontaktPageWrapper}>
-			<div className={css.KontaktWrapper}>
-				<address>
-					<ul className={css.addressList}>
-						<li className={css.addressItem}>
+			<div className={css.Wrapper}>
+				<div className={css.KontaktWrapper}>
+					<h2 className={css.KontaktHeader}>GET IN TOUCH</h2>
+					<ul className={css.kontaktList}>
+						<li className={css.kontaktItem}>
 							<AiFillPhone className={css.pic} />
 							<a
-								className={css.addressLink}
+								className={css.kontaktLink}
 								href='tel: 06181 504 552 0'
 							>
 								+4961815045520
 							</a>
 						</li>
-						<li className={css.addressItem}>
+						<li className={css.kontaktItem}>
 							<MdMail className={css.pic} />
 							<a
-								className={css.addressLink}
-								href='mailto: info-@mail.com'
+								className={css.kontaktLink}
+								href='mailto: renaldo.klimenko@budderbrood.de'
 							>
-								info-@mail.com
+								E-Mail schreiben
 							</a>
 						</li>
-						<li className={css.addressItem}>
-							<MdLocationPin className={css.pic} />
-							<a
-								className={css.addressLink}
-								href='https://www.google.com/maps/place/BudderBrood+Hanau/@50.1332,8.9163264,340m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47bd17157cb0f17b:0x59b30e28099e1a2e!8m2!3d50.1332!4d8.91741!16s%2Fg%2F11y3r45wg5?hl=de&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Am Markt 14-18, 63450 Hanau.
-							</a>
+						<li>
+							<p className={css.text}>
+								Keine Reservierungen mittwochs & samstags..
+							</p>
 						</li>
 					</ul>
-				</address>
+					<div className={css.address}>
+						<h2 className={css.KontaktHeader}>ADRESSE</h2>
+						<MdLocationPin className={css.pic} />
+						<a
+							className={css.addressLink}
+							href='https://www.google.com/maps/place/BudderBrood+Hanau/@50.1332,8.9163264,340m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47bd17157cb0f17b:0x59b30e28099e1a2e!8m2!3d50.1332!4d8.91741!16s%2Fg%2F11y3r45wg5?hl=de&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Am Markt 14-18, 63450 Hanau.
+						</a>
+					</div>
+					<h2 className={css.KontaktHeader}>ÖFFNUNGZEITEN</h2>
+					<p className={css.text}>Täglich 09:00–18:00</p>
+					<p className={css.text}>Frühstück bis 15:00 Uhr 🍽️</p>
+				</div>
 			</div>
 			<MapWidget />
 		</section>
