@@ -63,10 +63,11 @@ const Navigation = () => {
 					/>
 				</nav>
 				<a
-					href='https://cdn.website-editor.net/s/49ca788be87f4e0cb791a49f5e893395/files/uploaded/AW_Speisekarte_2024_V6.pdf?Expires=1738865516&Signature=odcYGVTcRFNzdxULZcWcZRl9eFdZMyAgIAwKjJYjNh8nQsJlA1G20GyAWl8ns~r0upBHwh96obJgRgGZqyXh7bPrJY6OfBNNFvmpqTyn5QmWSvmeY-BQqqVKXmVaW3CvK4Be8AFvEskv85kl~I5NRmyrUCxB1cQxIA3kK-jB4Zy9hLG~eiws8EruKvn7noRbxlZvMzY-UjiOMjixH5agbfJpJxIBrGF6o4zxDwgSuG9jieoeFp5z77ajRATPZeAKWFDAcT9k8QTuUyJru9qhpoXBfjg2dKWwGVJcUryaQvXP75sN5XKDF-l0xUQEIJft7jkiI2~OtzlHGhUtP4Y9~A__&Key-Pair-Id=K2NXBXLF010TJW'
+					href='renaldo.vercel.app/menu.pdf'
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.navButton}
+					onClick={onCloseModal}
 				>
 					Menu
 				</a>

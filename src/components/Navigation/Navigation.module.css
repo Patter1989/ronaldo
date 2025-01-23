@@ -77,10 +77,11 @@
 }
 .navButton:hover{
   background: var(--button-hover);
+  color: var(--button);
 }
 
 .navButton:focus{
-  background: #c4b09a;
+  background: var(--button-hover);
 }
 
 
@@ -117,8 +118,6 @@
   font-size: 18px;
   width: 100px;
 }
-.navButton:hover{
-  background: #c4b09a;
-}
+
 
 }
