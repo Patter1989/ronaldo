@@ -3,6 +3,8 @@ import css from "./KontaktPage.module.css"
 import { AiFillPhone } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa6";
+
 
 function KontaktPage() {
 
@@ -30,14 +32,25 @@ function KontaktPage() {
 								E-Mail schreiben
 							</a>
 						</li>
+						<li className={css.kontaktItem}>
+							<FaInstagram className={css.pic} />
+							<a
+								className={css.kontaktLink}
+								href='https://www.instagram.com/budderbrood_hanau?igsh=czJuOGx3dTF2aHo='
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								budderbrood_hanau
+							</a>
+						</li>
 						<li>
 							<p className={css.text}>
 								Keine Reservierungen mittwochs & samstags..
 							</p>
 						</li>
 					</ul>
+					<h2 className={css.KontaktHeader}>ADRESSE</h2>
 					<div className={css.address}>
-						<h2 className={css.KontaktHeader}>ADRESSE</h2>
 						<MdLocationPin className={css.pic} />
 						<a
 							className={css.addressLink}

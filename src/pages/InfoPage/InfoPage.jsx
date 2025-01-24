@@ -20,7 +20,7 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/info_img.jpeg'
+								src='/public/BrötschenBar.JPG'
 								alt='Bar'
 							/>
 						</div>
@@ -41,7 +41,7 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/info_img.jpeg'
+								src='/sall.jpeg'
 								alt='Bar'
 							/>
 						</div>

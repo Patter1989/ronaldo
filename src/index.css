@@ -47,7 +47,7 @@ button {
 
 /* Вирівнює шрифти для тіла документа */
 body {
-  
+  margin-top: 87.78px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 300;

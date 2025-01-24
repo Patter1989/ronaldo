@@ -1,9 +1,21 @@
 
+.navSectionWrapper{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+  
+  z-index: 1000;
+}
+
 .navSection{
   box-sizing: border-box;
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  background-color: var(--background);
+  
   align-items: center;
   padding: 10px 20px;
   
@@ -20,6 +32,14 @@
   cursor: pointer;
   transition: background-color 0.3s;
   
+}
+
+.reservButton:hover{
+  color: var(--button-hover);
+}
+
+.reservButton:focus{
+  color: var(--button-hover);
 }
 
 .NavLink{
@@ -56,6 +76,7 @@
   align-items: center;
   color: inherit;
   height: 30px;
+  font-weight: 600;
   font-size: 12px;
   transition: all 0.3s;
 }

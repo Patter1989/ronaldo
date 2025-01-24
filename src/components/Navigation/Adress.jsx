@@ -3,7 +3,7 @@ import { AiFillPhone } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa6";
+import { BiSolidPhoneCall } from "react-icons/bi";
 import { NavLink } from 'react-router-dom';
 
 
@@ -64,11 +64,9 @@ const Address = () => {
 					<li>
 						<a
 							className={css.socLink}
-							href=''
-							target='_blank'
-							rel='noopener noreferrer'
+							href='tel: 06181 504 552 0'
 						>
-							<FaTiktok className={css.socIcon} />
+							<BiSolidPhoneCall className={css.socIcon} />
 						</a>
 					</li>
 				</ul>

@@ -19,7 +19,7 @@ const Navigation = () => {
 	};
 	
   return (
-		<div>
+		<div className={css.navSectionWrapper}>
 			<Address />
 			<section className={css.navSection}>
 				<a

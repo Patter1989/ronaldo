@@ -1,7 +1,13 @@
+.sectionWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .wrapper{
   display: flex;
   flex-direction: column;
-  
+  background-color: var(--card-bg);
   padding: 10px;
 }
 
@@ -41,6 +47,7 @@ width: 100%;
   .sectionWrapper{
     display: flex;
     flex-direction: column;
+    gap: 20px;
     :nth-child(even) {
     flex-direction: row-reverse;
 }
@@ -50,7 +57,7 @@ width: 100%;
 
   
   .wrapper{
-  background-color: none;
+  
   display: flex;
   flex-direction: row;
 }

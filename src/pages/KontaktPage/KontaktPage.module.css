@@ -6,14 +6,43 @@
   background-color: var(--card-bg);
 }
 
+.address:hover{
+  color: var(--button-hover);
+}
 
+.address:focus{
+  color: var(--button-hover);
+}
+
+.kontaktLink{
+  cursor: pointer;
+}
+
+.addressLink{
+  cursor: pointer;
+}
 
 .KontaktHeader{
   letter-spacing: 5px;
   padding-bottom: 10px;
 }
 
+.kontaktItem{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.kontaktItem:hover{
+  color: var(--button-hover);
+}
+
+.kontaktItem:focus{
+  color: var(--button-hover);
+}
+
 .kontaktList{
+  
   display: flex;
   flex-direction: column;
   gap: 10px;
