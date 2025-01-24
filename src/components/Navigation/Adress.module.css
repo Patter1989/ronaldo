@@ -1,6 +1,9 @@
 .addressList{
   display: none;
 }
+.logoImg{
+    border-radius: 50%;
+  }
 
 .addressSection{
   width: 100vw;
