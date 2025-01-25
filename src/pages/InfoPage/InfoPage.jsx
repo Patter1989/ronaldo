@@ -20,14 +20,12 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/BrötschenBar.JPG'
-								alt='Bar'
+								src='/public/vordembartisch.jpeg'
+								alt='Gemütlicher Tisch mit modernen grauen Stühlen vor einer Bar mit Kaffeemaschine, Spirituosenregal und dekorativer Beleuchtung'
 							/>
 						</div>
 					</div>
-					<div
-						className={(css.wrapper)}
-					>
+					<div className={css.wrapper}>
 						<div className={css.infoTextWrapper}>
 							<h1 className={css.infoHeader}>
 								&quot;BudderBrood&quot; – mehr als ein Café
@@ -41,8 +39,8 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/sall.jpeg'
-								alt='Bar'
+								src='/public/Tisches_vormittag.jpeg'
+								alt='Reihe von Tischen mit modernen Stühlen in einem Café mit großen Fenstern, durch die man auf den Stadtplatz blickt'
 							/>
 						</div>
 					</div>
@@ -62,8 +60,8 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/info_img.jpeg'
-								alt='Bar'
+								src='/sall.jpeg'
+								alt='Gemütliche Sitzecke in einem Café mit Holztischen und modernen Stühlen, dekoriert mit einem farbenfrohen Gemälde eines Hundes an der Wand'
 							/>
 						</div>
 					</div>
