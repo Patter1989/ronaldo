@@ -7,7 +7,7 @@ function HomePage() {
 			<div className={css.heroSectionWrapper}>
 				<img
 					className={css.heroImg}
-					src='/public/sall_vormittag.jpeg'
+					src='/sall_vormittag.jpeg'
 					alt='Helles Café mit modernen Holztischen und gemütlichen Stühlen, großen Fenstern, die einen Blick auf den Stadtplatz bieten, und einem farbenfrohen Hundegemälde an der Wand.'
 				/>
 				<div className={css.titleWrapper}>

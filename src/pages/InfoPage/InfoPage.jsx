@@ -20,7 +20,7 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/public/vordembartisch.jpeg'
+								src='/vordembartisch.jpeg'
 								alt='Gemütlicher Tisch mit modernen grauen Stühlen vor einer Bar mit Kaffeemaschine, Spirituosenregal und dekorativer Beleuchtung'
 							/>
 						</div>
@@ -39,7 +39,7 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/public/Tisches_vormittag.jpeg'
+								src='/Tisches_vormittag.jpeg'
 								alt='Reihe von Tischen mit modernen Stühlen in einem Café mit großen Fenstern, durch die man auf den Stadtplatz blickt'
 							/>
 						</div>
