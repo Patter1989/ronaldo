@@ -4,3 +4,19 @@
   flex-direction: column;
   
 }
+.navButton{
+  width: 200px;
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: var(--button);
+  border: none;
+  align-self: center;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--card-bg);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

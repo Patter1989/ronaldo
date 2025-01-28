@@ -49,6 +49,12 @@ const Navigation = () => {
 					>
 						Kontakt
 					</NavLink>
+					<NavLink
+						to='/info'
+						className={buildLinkClass}
+					>
+						Katering
+					</NavLink>
 					<button
 						type='button'
 						className={css.burgerButton}

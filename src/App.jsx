@@ -46,6 +46,10 @@ const App = () => {
 							element={<KontaktPage />}
 						/>
 						<Route
+							path='/info'
+							element={<InfoPage />}
+						/>
+						<Route
 							path='*'
 							element={<NotFoundPage />}
 						/>

@@ -7,7 +7,16 @@ function HomePage() {
 	return (
 		<div className={css.HomePageWrapper}>
 			<Hero />
-			<Dishes/>
+			<Dishes />
+			<a
+								href='/menu.pdf'
+								target='_blank'
+								rel='noopener noreferrer'
+								className={css.navButton}
+								
+							>
+								Menu
+							</a>
 		</div>
 	);
 }

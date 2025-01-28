@@ -1,19 +1,55 @@
 [
 	{
 		"id": 1,
-		"image": "/images/dish1.jpg",
+		"image": "/dishes/dish1.jpeg",
 		"title": "Frühstücksplatte",
 		"description": "Ein reichhaltiges Frühstück mit frischen Zutaten."
 	},
 	{
 		"id": 2,
-		"image": "/images/dish2.jpg",
+		"image": "/dishes/dish2.jpeg",
 		"title": "Avocado-Toast",
 		"description": "Knuspriges Brot mit Avocado, Tomaten und Ei."
 	},
 	{
 		"id": 3,
-		"image": "/images/dish3.jpg",
+		"image": "/dishes/dish3.jpeg",
+		"title": "Französischer Croissant",
+		"description": "Buttriges Croissant mit hausgemachter Marmelade."
+	},
+  {
+		"id": 4,
+		"image": "/dishes/dish4.jpeg",
+		"title": "Frühstücksplatte",
+		"description": "Ein reichhaltiges Frühstück mit frischen Zutaten."
+	},
+	{
+		"id": 5,
+		"image": "/dishes/dish5.jpeg",
+		"title": "Avocado-Toast",
+		"description": "Knuspriges Brot mit Avocado, Tomaten und Ei."
+	},
+	{
+		"id": 6,
+		"image": "/dishes/dish6.jpeg",
+		"title": "Französischer Croissant",
+		"description": "Buttriges Croissant mit hausgemachter Marmelade."
+	},
+  {
+		"id": 7,
+		"image": "/dishes/dish7.jpeg",
+		"title": "Frühstücksplatte",
+		"description": "Ein reichhaltiges Frühstück mit frischen Zutaten."
+	},
+	{
+		"id": 8,
+		"image": "/dishes/dish8.jpeg",
+		"title": "Avocado-Toast",
+		"description": "Knuspriges Brot mit Avocado, Tomaten und Ei."
+	},
+	{
+		"id": 9,
+		"image": "/dishes/dish9.jpeg",
 		"title": "Französischer Croissant",
 		"description": "Buttriges Croissant mit hausgemachter Marmelade."
 	}
