@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"image": "/images/dish1.jpg",
+		"title": "Frühstücksplatte",
+		"description": "Ein reichhaltiges Frühstück mit frischen Zutaten."
+	},
+	{
+		"id": 2,
+		"image": "/images/dish2.jpg",
+		"title": "Avocado-Toast",
+		"description": "Knuspriges Brot mit Avocado, Tomaten und Ei."
+	},
+	{
+		"id": 3,
+		"image": "/images/dish3.jpg",
+		"title": "Französischer Croissant",
+		"description": "Buttriges Croissant mit hausgemachter Marmelade."
+	}
+]

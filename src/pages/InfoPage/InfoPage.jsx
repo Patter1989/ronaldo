@@ -9,12 +9,12 @@ const InfoPage = () => {
 						<div className={css.infoTextWrapper}>
 							<h1 className={css.infoHeader}>Willkommen bei Budderbrood</h1>
 							<p className={css.infoText}>
-								Willkommen bei BudderBrood – Ihrem guten Café! Starten Sie den
-								Tag in unserem modernen, charmanten Ambiente mit einem
-								Frühstück, das auf hochwertige, regionale und natürliche
-								Produkte setzt. Ob frische Stullen, kreative Focaccias oder
-								abwechslungsreiche Frühstücksvariationen – bei uns trifft
-								Geschmack auf Qualität.
+								Willkommen bei BudderBrood – Ihrem Café für guten Geschmack!
+								Starten Sie den Tag in unserem modernen, gemütlichen Ambiente
+								mit einer Tasse Kaffee und einem Frühstück, das auf hochwertige,
+								natürliche Zutaten setzt. Ob frische Stullen, kreative Focaccias
+								oder abwechslungsreiche Frühstücksvariationen – bei uns treffen
+								Genuss und Qualität aufeinander.
 							</p>
 						</div>
 						<div className={css.imgWrapper}>
@@ -31,9 +31,11 @@ const InfoPage = () => {
 								&quot;BudderBrood&quot; – mehr als ein Café
 							</h1>
 							<p className={css.infoText}>
-								Erleben Sie ein modernes Ambiente, das zum Verweilen einlädt.
-								Perfekt für eine Auszeit oder den Start in den Tag mit einem
-								guten Frühstück.
+								Unser modernes Ambiente lädt dazu ein, den Alltag hinter sich zu
+								lassen, ob bei einem schnellen Frühstück oder einem entspannten
+								Moment mit einer Tasse Kaffee. Mit frischen Zutaten und viel
+								Liebe zum Detail möchten wir jeden Besuch zu einem besonderen
+								Erlebnis machen.
 							</p>
 						</div>
 						<div className={css.imgWrapper}>
@@ -48,13 +50,12 @@ const InfoPage = () => {
 						<div className={css.infoTextWrapper}>
 							<h1 className={css.infoHeader}>Unsere Vision</h1>
 							<p className={css.infoText}>
-								Das Vater-Sohn-Duo hinter BudderBrood hat eine klare Vision: Ein
-								Ort zu sein, an dem Menschen zusammenkommen, um hochwertige,
-								natürliche und regionale Speisen in einem modernen und
-								charmanten Ambiente zu genießen. Wir möchten nicht nur leckeres
-								Essen anbieten, sondern ein Gefühl von Gemeinschaft und
-								Geborgenheit schaffen – ein Café, das man gerne besucht und
-								immer wieder zurückkehrt.
+								Wir möchten ein Ort sein, an dem hochwertige Speisen und
+								Getränke in einer entspannten Atmosphäre genossen werden können.
+								Dabei setzen wir auf natürliche Produkte von vertrauenswürdigen
+								Partnern und schaffen eine Umgebung, in die man gerne
+								zurückkehrt – für ein genussvolles Frühstück, eine herzhafte
+								Stulle oder einfach eine gute Tasse Kaffee.
 							</p>
 						</div>
 						<div className={css.imgWrapper}>

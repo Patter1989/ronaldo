@@ -45,7 +45,7 @@ function KontaktPage() {
 						</li>
 						<li>
 							<p className={css.text}>
-								Keine Reservierungen mittwochs & samstags..
+								Keine Reservierungen Mittwochs & Samstags.
 							</p>
 						</li>
 					</ul>
@@ -62,8 +62,17 @@ function KontaktPage() {
 						</a>
 					</div>
 					<h2 className={css.KontaktHeader}>ÖFFNUNGZEITEN</h2>
-					<p className={css.text}>Täglich 09:00–18:00</p>
-					<p className={css.text}>Frühstück bis 15:00 Uhr 🍽️</p>
+					<p className={css.text}>Mo-Sa 09:00–18:00</p>
+					<p className={css.text}>So 10:00–18:00</p>
+					<p className={css.text}>Frühstück täglich bis 15:00 Uhr 🍽️</p>
+				</div>
+				<div className={css.logoWrapper}>
+					<img
+						className={css.logoImg}
+						src='/logo.jpeg'
+						alt='Logo'
+						width={360}
+					/>
 				</div>
 			</div>
 			<MapWidget />

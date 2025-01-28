@@ -30,7 +30,7 @@ a {
 }
 
 :root {
-  --background: #F5F5DC; /* Ніжний бежевий */
+  --background: #b6b6b3; /* Ніжний бежевий */
   --text: #243433; /* Чорний */
   --header: #4B2E20; /* Темно-коричневий */
   --button: #1e2b2c; /* Оливковий зелений */
@@ -47,7 +47,7 @@ button {
 
 /* Вирівнює шрифти для тіла документа */
 body {
-  margin-top: 87.78px;
+  margin-top: 88px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 300;
