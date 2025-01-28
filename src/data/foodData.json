@@ -38,5 +38,13 @@
 	{
 		"id": 9,
 		"image": "/dishes/dish9.jpeg"
+	},
+	{
+		"id": 10,
+		"image": "/dishes/dish10.jpeg"
+	},
+	{
+		"id": 11,
+		"image": "/dishes/dish11.jpeg"
 	}
 ]
