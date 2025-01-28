@@ -1,56 +1,42 @@
 [
 	{
+		"id": 0,
+		"image": "/dishes/dish0.jpeg"
+	},
+	{
 		"id": 1,
-		"image": "/dishes/dish1.jpeg",
-		"title": "Frühstücksplatte",
-		"description": "Ein reichhaltiges Frühstück mit frischen Zutaten."
+		"image": "/dishes/dish1.jpeg"
 	},
 	{
 		"id": 2,
-		"image": "/dishes/dish2.jpeg",
-		"title": "Avocado-Toast",
-		"description": "Knuspriges Brot mit Avocado, Tomaten und Ei."
+		"image": "/dishes/dish2.jpeg"
 	},
 	{
 		"id": 3,
-		"image": "/dishes/dish3.jpeg",
-		"title": "Französischer Croissant",
-		"description": "Buttriges Croissant mit hausgemachter Marmelade."
+		"image": "/dishes/dish3.jpeg"
 	},
-  {
+	{
 		"id": 4,
-		"image": "/dishes/dish4.jpeg",
-		"title": "Frühstücksplatte",
-		"description": "Ein reichhaltiges Frühstück mit frischen Zutaten."
+		"image": "/dishes/dish4.jpeg"
 	},
 	{
 		"id": 5,
-		"image": "/dishes/dish5.jpeg",
-		"title": "Avocado-Toast",
-		"description": "Knuspriges Brot mit Avocado, Tomaten und Ei."
+		"image": "/dishes/dish5.jpeg"
 	},
 	{
 		"id": 6,
-		"image": "/dishes/dish6.jpeg",
-		"title": "Französischer Croissant",
-		"description": "Buttriges Croissant mit hausgemachter Marmelade."
+		"image": "/dishes/dish6.jpeg"
 	},
-  {
+	{
 		"id": 7,
-		"image": "/dishes/dish7.jpeg",
-		"title": "Frühstücksplatte",
-		"description": "Ein reichhaltiges Frühstück mit frischen Zutaten."
+		"image": "/dishes/dish7.jpeg"
 	},
 	{
 		"id": 8,
-		"image": "/dishes/dish8.jpeg",
-		"title": "Avocado-Toast",
-		"description": "Knuspriges Brot mit Avocado, Tomaten und Ei."
+		"image": "/dishes/dish8.jpeg"
 	},
 	{
 		"id": 9,
-		"image": "/dishes/dish9.jpeg",
-		"title": "Französischer Croissant",
-		"description": "Buttriges Croissant mit hausgemachter Marmelade."
+		"image": "/dishes/dish9.jpeg"
 	}
 ]
