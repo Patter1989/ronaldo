@@ -3,7 +3,7 @@
 		{
 			"source": "/api/:path*",
 			"destination": "https://maps.googleapis.com/:path*"
-		}
+		},
 		{
 			"source": "/(.*)",
 			"destination": "/index.html"
