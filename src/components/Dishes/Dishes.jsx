@@ -24,6 +24,12 @@ const Dishes = () => {
 					769: {
 						slidesPerView: 2,
 					},
+					1025: {
+						slidesPerView: 3,
+					},
+					1440: {
+						slidesPerView: 4,
+					},
 				}}
 			>
 				{foodItems.map((food) => (

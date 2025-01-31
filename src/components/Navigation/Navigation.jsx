@@ -49,12 +49,12 @@ const Navigation = () => {
 					>
 						Kontakt
 					</NavLink>
-					<NavLink
+					{/* <NavLink
 						to='/info'
 						className={buildLinkClass}
 					>
 						Katering
-					</NavLink>
+					</NavLink> */}
 					<button
 						type='button'
 						className={css.burgerButton}
