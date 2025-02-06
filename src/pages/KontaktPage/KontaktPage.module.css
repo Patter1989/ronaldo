@@ -1,9 +1,12 @@
 .KontaktPageWrapper{
+  width: 314px;
   display: flex;
   flex-direction: column;
   padding: 10px;
   gap: 20px;
   background-color: var(--card-bg);
+  border-radius: 16px; 
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
 }
 
 .logoWrapper{
@@ -58,6 +61,9 @@
 }
 
 @media (min-width: 426px){
+  .KontaktPageWrapper{
+  width: 421px;
+}
 .text{
   font-size: 20px;
 }
@@ -65,6 +71,10 @@
 
 
 @media (min-width: 769px){
+  .KontaktPageWrapper{
+  width: 759px;
+}
+
   .logoWrapper{
     display: block;
   }
@@ -79,4 +89,16 @@
     align-items: center;
     gap: 200px;
   }
+}
+
+@media (min-width: 1024px){
+  .KontaktPageWrapper{
+  width: 1004px;
+}
+}
+
+@media (min-width: 1440px){
+  .KontaktPageWrapper{
+  width: 1400px;
+}
 }

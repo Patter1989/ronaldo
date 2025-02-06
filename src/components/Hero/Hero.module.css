@@ -95,7 +95,7 @@ background-color: var(--card-bg);
   letter-spacing: 0px;
   }
 
-@media (min-width: 427px){
+@media (min-width: 426px){
   .heroSectionWrapper {
   width: 421px;
   
