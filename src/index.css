@@ -47,7 +47,7 @@ button {
 
 /* Вирівнює шрифти для тіла документа */
 body {
-  margin-top: 88px;
+  margin-top: 96px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -66,6 +66,11 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
 
 /* Вирівнює інпут-поля */

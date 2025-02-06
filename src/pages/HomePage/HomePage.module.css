@@ -1,8 +1,9 @@
 .HomePageWrapper {
-  min-width: 320px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  
+  gap: 30px;
 }
 .navButton{
   width: 200px;
@@ -19,4 +20,10 @@
   color: var(--card-bg);
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 427px){
+  .navButton{
+    font-size: 18px;
+  }
 }
