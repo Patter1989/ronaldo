@@ -14,14 +14,14 @@ const Hero = () => {
 					className={css.heroImg}
 					src={heroImg}
 					alt='Helles Café mit modernen Holztischen und gemütlichen Stühlen, großen Fenstern, die einen Blick auf den Stadtplatz bieten, und einem farbenfrohen Hundegemälde an der Wand.'
-					loading='lazy'
+					
 				/>
 				<div className={css.titleWrapper}>
 					<img
 						className={css.logoImg}
 						src={logoLange}
 						alt='logo'
-						loading='lazy'
+						
 					/>
 				</div>
 			</div>
@@ -31,7 +31,7 @@ const Hero = () => {
 					className={css.logoImg}
 					src={logoGoris}
 					alt='logo'
-					loading='lazy'
+					
 				/>
 				<img
 					className={css.heroImgGor}
@@ -47,7 +47,7 @@ const Hero = () => {
 						className={css.breakfastFoto}
 						src={breakfastImg}
 						alt='Frühstückstisch mit einer Auswahl an frischen Speisen, darunter Obst, Gemüse, Eier, Aufschnitt und Säfte, stilvoll serviert auf einer Etagere in einem gemütlichen Café.'
-						loading='lazy'
+						
 					/>
 				</div>
 				<div className={css.breakfastTitleWrapper}>
