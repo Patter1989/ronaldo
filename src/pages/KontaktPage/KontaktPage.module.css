@@ -81,6 +81,7 @@
 
   .logoImg{
     border-radius: 50%;
+    width: 238px;
   }
 
   .Wrapper{
@@ -95,6 +96,9 @@
   .KontaktPageWrapper{
   width: 1004px;
 }
+.logoImg{
+    width: 246px;
+  }
 }
 
 @media (min-width: 1440px){

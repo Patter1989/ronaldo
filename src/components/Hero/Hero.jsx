@@ -37,7 +37,7 @@ const Hero = () => {
 					className={css.heroImgGor}
 					src={heroImg}
 					alt='Helles Café mit modernen Holztischen und gemütlichen Stühlen, großen Fenstern, die einen Blick auf den Stadtplatz bieten, und einem farbenfrohen Hundegemälde an der Wand.'
-					loading='lazy'
+					
 				/>
 			</div>
 

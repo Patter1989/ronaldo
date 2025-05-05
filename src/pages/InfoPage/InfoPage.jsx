@@ -1,4 +1,4 @@
-import MapReviews from "../../components/Reviews/Reviews";
+// import MapReviews from "../../components/Reviews/Reviews";
 import css from "./InfoPage.module.css"
 import vordembartisch from "../../assets/vordembartisch.jpeg?w=1000&format=webp&as=src";
 import Tisches_vormittag from "../../assets/Tisches_vormittag.jpeg?w=1000&format=webp&as=src";
@@ -68,7 +68,7 @@ const InfoPage = () => {
 							/>
 						</div>
 					</div>
-					<MapReviews />
+					{/* <MapReviews /> */}
 				</section>
 			);
 }

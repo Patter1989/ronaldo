@@ -5,6 +5,7 @@ import { MdLocationPin } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { NavLink } from 'react-router-dom';
+import logo from "../../assets/logo.jpeg?w=400&format=webp&as=src";
 
 
 const Address = () => {
@@ -13,7 +14,7 @@ const Address = () => {
 			<NavLink to='/'>
 				<img
 					className={css.logoImg}
-					src='/logo.jpeg'
+					src={logo}
 					alt='logo'
 					width='25'
 				/>
