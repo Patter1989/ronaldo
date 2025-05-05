@@ -4,6 +4,7 @@ import { AiFillPhone } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
+import logo from "../../assets/logo.jpeg?w=400&format=webp&as=src";
 
 
 function KontaktPage() {
@@ -69,7 +70,7 @@ function KontaktPage() {
 				<div className={css.logoWrapper}>
 					<img
 						className={css.logoImg}
-						src='/logo.jpeg'
+						src={logo}
 						alt='Logo'
 						width={360}
 					/>

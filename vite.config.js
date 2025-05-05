@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import { imagetools } from "vite-imagetools";
 
 // // https://vitejs.dev/config/
 // export default defineConfig({
@@ -13,7 +14,7 @@ import react from '@vitejs/plugin-react-swc'
 // import { defineConfig } from "vite";
 
 export default defineConfig({
-	plugins: [react()],
+	plugins: [react(), imagetools()],
 	server: {
 		proxy: {
 			"/api": {
@@ -23,4 +24,5 @@ export default defineConfig({
 			},
 		},
 	},
+	assetsInclude: ["**/*.webp", "**/*.avif"],
 });

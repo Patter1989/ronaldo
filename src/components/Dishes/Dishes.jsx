@@ -4,6 +4,10 @@ import css from './Dishes.module.css'
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import dish3 from "../../assets/dishes/dish3.jpeg?w=400&format=webp&as=src";
+import dish6 from "../../assets/dishes/dish6.jpeg?w=400&format=webp&as=src";
+import dish4 from "../../assets/dishes/dish4.jpeg?w=400&format=webp&as=src";
+import dish5 from "../../assets/dishes/dish5.jpeg?w=400&format=webp&as=src";
 // import foodItems from "../../data/foodData.json";
 
 
@@ -15,24 +19,24 @@ const Dishes = () => {
 			<div className={css.collage}>
 				<div className={css.column}>
 					<img
-						src='/dishes/dish3.jpeg'
+						src={dish3}
 						alt='Image 1'
 						className={css.img}
 					/>
 					<img
-						src='/dishes/dish6.jpeg'
+						src={dish6}
 						alt='Image 2'
 						className={css.img}
 					/>
 				</div>
 				<div className={css.column}>
 					<img
-						src='/dishes/dish4.jpeg'
+						src={dish4}
 						alt='Image 3'
 						className={css.img}
 					/>
 					<img
-						src='/dishes/dish5.jpeg'
+						src={dish5}
 						alt='Image 4'
 						className={css.img}
 					/>

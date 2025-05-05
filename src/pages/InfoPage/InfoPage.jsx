@@ -1,6 +1,8 @@
 import MapReviews from "../../components/Reviews/Reviews";
 import css from "./InfoPage.module.css"
-
+import vordembartisch from "../../assets/vordembartisch.jpeg?w=1000&format=webp&as=src";
+import Tisches_vormittag from "../../assets/Tisches_vormittag.jpeg?w=1000&format=webp&as=src";
+import sall from "../../assets/sall.jpeg?w=1000&format=webp&as=src";
 
 const InfoPage = () => {
 			return (
@@ -20,7 +22,7 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/vordembartisch.jpeg'
+								src={vordembartisch}
 								alt='Gemütlicher Tisch mit modernen grauen Stühlen vor einer Bar mit Kaffeemaschine, Spirituosenregal und dekorativer Beleuchtung'
 							/>
 						</div>
@@ -41,7 +43,7 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/Tisches_vormittag.jpeg'
+								src={Tisches_vormittag}
 								alt='Reihe von Tischen mit modernen Stühlen in einem Café mit großen Fenstern, durch die man auf den Stadtplatz blickt'
 							/>
 						</div>
@@ -61,7 +63,7 @@ const InfoPage = () => {
 						<div className={css.imgWrapper}>
 							<img
 								className={css.img}
-								src='/sall.jpeg'
+								src={sall}
 								alt='Gemütliche Sitzecke in einem Café mit Holztischen und modernen Stühlen, dekoriert mit einem farbenfrohen Gemälde eines Hundes an der Wand'
 							/>
 						</div>
