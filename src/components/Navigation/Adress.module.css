@@ -27,7 +27,6 @@ address{
 
 .socIcon{
   fill: var(--button-hover);
-
 }
 
 @media (min-width: 769px){
@@ -67,12 +66,7 @@ address{
   color:var(--card-bg);
   white-space: nowrap;
 }
-
-
-
 }
-
-
 
 @media (min-width: 1024px) {
 
@@ -107,5 +101,4 @@ address{
   justify-content: center;
   height: 40px;
 }
-
 }
