@@ -9,14 +9,13 @@ function HomePage() {
 			<Hero />
 			<Dishes />
 			<a
-								href='/menu.pdf'
-								target='_blank'
-								rel='noopener noreferrer'
-								className={css.navButton}
-								
-							>
-								Menu
-							</a>
+				href='https://www.google.com/menu.pdf'
+				target='_blank'
+				rel='noopener noreferrer'
+				className={css.navButton}
+			>
+				Menu
+			</a>
 		</div>
 	);
 }

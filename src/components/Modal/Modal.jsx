@@ -50,7 +50,8 @@ const Modal = ({ isOpen, onCloseModal }) => {
 					X
 				</button>
 				<a
-					href='https://www.google.com/maps/reserve/v/dine/c/2MG5UIDkuIo?source=pa&opi=79508299&hl=de-DE&gei=EqyPZ93eLMmJ7NYP75fH2Qo&sourceurl=http%3A%2F%2Fwww.google.com%2Fservice%2FMapsPlaceService%2FGetPlace%3Fhl%3Dde%26authuser%3D0%26gl%3Dde%26q%3DBudderBrood%2BHanau&ihs=1'
+					href='https://www.google.com'
+					// href='https://www.google.com/maps/reserve/v/dine/c/2MG5UIDkuIo?source=pa&opi=79508299&hl=de-DE&gei=EqyPZ93eLMmJ7NYP75fH2Qo&sourceurl=http%3A%2F%2Fwww.google.com%2Fservice%2FMapsPlaceService%2FGetPlace%3Fhl%3Dde%26authuser%3D0%26gl%3Dde%26q%3DBudderBrood%2BHanau&ihs=1'
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.reservButton}
@@ -82,7 +83,7 @@ const Modal = ({ isOpen, onCloseModal }) => {
 					</NavLink>
 				</nav>
 				<a
-					href='/menu.pdf'
+					href='https://www.google.com/menu.pdf'
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.navButton}
@@ -96,16 +97,16 @@ const Modal = ({ isOpen, onCloseModal }) => {
 							<AiFillPhone className={css.pic} />
 							<a
 								className={css.addressLink}
-								href='tel: 06181 504 552 0'
+								href='tel: 05000 500 5000 0'
 							>
-								+4961815045520
+								+490500050050000
 							</a>
 						</li>
 						<li className={css.addressItem}>
 							<MdMail className={css.pic} />
 							<a
 								className={css.addressLink}
-								href='mailto: renaldo.klimenko@budderbrood.de'
+								href='mailto: @budderbrood.de'
 							>
 								E-Mail schreiben
 							</a>

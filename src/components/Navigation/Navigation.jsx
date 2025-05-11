@@ -23,7 +23,8 @@ const Navigation = () => {
 			<Address />
 			<section className={css.navSection}>
 				<a
-					href='https://www.google.com/maps/reserve/v/dine/c/2MG5UIDkuIo?source=pa&opi=79508299&hl=de-DE&gei=EqyPZ93eLMmJ7NYP75fH2Qo&sourceurl=http%3A%2F%2Fwww.google.com%2Fservice%2FMapsPlaceService%2FGetPlace%3Fhl%3Dde%26authuser%3D0%26gl%3Dde%26q%3DBudderBrood%2BHanau&ihs=1'
+					href='https://www.google.com'
+					// href='https://www.google.com/maps/reserve/v/dine/c/2MG5UIDkuIo?source=pa&opi=79508299&hl=de-DE&gei=EqyPZ93eLMmJ7NYP75fH2Qo&sourceurl=http%3A%2F%2Fwww.google.com%2Fservice%2FMapsPlaceService%2FGetPlace%3Fhl%3Dde%26authuser%3D0%26gl%3Dde%26q%3DBudderBrood%2BHanau&ihs=1'
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.reservButton}
@@ -69,7 +70,7 @@ const Navigation = () => {
 					/>
 				</nav>
 				<a
-					href='/menu.pdf'
+					href='https://www.google.com/menu.pdf'
 					target='_blank'
 					rel='noopener noreferrer'
 					className={css.navButton}

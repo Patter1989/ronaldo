@@ -25,16 +25,18 @@ const Address = () => {
 						<AiFillPhone className={css.pic} />
 						<a
 							className={css.addressLink}
-							href='tel: 06181 504 552 0'
+							href='tel: 05000 500 5000 0'
+							// href='tel: 06181 504 552 0'
 						>
-							+4961815045520
+							+495000 500 5000 0{/* +4961815045520 */}
 						</a>
 					</li>
 					<li className={css.addressItem}>
 						<MdMail className={css.pic} />
 						<a
 							className={css.addressLink}
-							href='mailto: renaldo.klimenko@budderbrood.de'
+							// href='mailto: renaldo.klimenko@budderbrood.de'
+							href='mailto: @budderbrood.de'
 						>
 							E-Mail schreiben
 						</a>
@@ -65,7 +67,7 @@ const Address = () => {
 					<li>
 						<a
 							className={css.socLink}
-							href='tel: 06181 504 552 0'
+							href='tel: 05000 500 5000 0'
 						>
 							<BiSolidPhoneCall className={css.socIcon} />
 						</a>

@@ -19,9 +19,9 @@ function KontaktPage() {
 							<AiFillPhone className={css.pic} />
 							<a
 								className={css.kontaktLink}
-								href='tel: 06181 504 552 0'
+								href='tel: 05000 500 5000 0'
 							>
-								+4961815045520
+								+49500050050000
 							</a>
 						</li>
 						<li className={css.kontaktItem}>
@@ -37,11 +37,13 @@ function KontaktPage() {
 							<FaInstagram className={css.pic} />
 							<a
 								className={css.kontaktLink}
-								href='https://www.instagram.com/budderbrood_hanau?igsh=czJuOGx3dTF2aHo='
+								href='https://www.instagram.com'
+								// href='https://www.instagram.com/budderbrood_hanau?igsh=czJuOGx3dTF2aHo='
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								budderbrood_hanau
+								budderbrood
+								{/* budderbrood_hanau */}
 							</a>
 						</li>
 						<li>
