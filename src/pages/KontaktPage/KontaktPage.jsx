@@ -57,11 +57,13 @@ function KontaktPage() {
 						<MdLocationPin className={css.pic} />
 						<a
 							className={css.addressLink}
-							href='https://www.google.com/maps/place/BudderBrood+Hanau/@50.1332,8.9163264,340m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47bd17157cb0f17b:0x59b30e28099e1a2e!8m2!3d50.1332!4d8.91741!16s%2Fg%2F11y3r45wg5?hl=de&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D'
+							href='https://www.google.com/maps/'
+							// href='https://www.google.com/maps/place/BudderBrood+Hanau/@50.1332,8.9163264,340m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47bd17157cb0f17b:0x59b30e28099e1a2e!8m2!3d50.1332!4d8.91741!16s%2Fg%2F11y3r45wg5?hl=de&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							Am Markt 14-18, 63450 Hanau.
+							BudderBrood
+							{/* Am Markt 14-18, 63450 Hanau. */}
 						</a>
 					</div>
 					<h2 className={css.KontaktHeader}>ÖFFNUNGZEITEN</h2>
